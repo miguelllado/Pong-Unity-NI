@@ -1,0 +1,104 @@
+{
+    "name": "PlayerController",
+    "maps": [
+        {
+            "name": "Player1_Gameplay",
+            "id": "e8e96c98-c76f-4325-b7d9-237d9158958f",
+            "actions": [
+                {
+                    "name": "Movimiento",
+                    "type": "Button",
+                    "id": "d72e5f49-cd4e-4d99-9d5c-2d7aca86b0da",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Keyboard",
+                    "id": "df28bf80-5d40-45c1-9b78-b429a0bdbc06",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "1c8e229c-dc59-480d-b811-7a69a1295300",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "4a8c60af-fbf8-449d-9f75-4c0c22af750e",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Player2_Gameplay",
+            "id": "a2313122-9c1a-42c8-aa8a-ae3c62245916",
+            "actions": [
+                {
+                    "name": "Movimiento",
+                    "type": "Button",
+                    "id": "83be4387-fba6-4d6e-aaf0-40180dbee992",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Xbox Stick",
+                    "id": "6f65a7b3-4652-4d56-b765-6c676da4ccfc",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "e0767e30-77db-444b-9333-2bdd823bf096",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "556fac96-9ba7-4242-a77d-a54113e9d0f7",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movimiento",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
